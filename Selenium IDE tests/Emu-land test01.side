@@ -1,0 +1,499 @@
+{
+  "id": "0ca7cf79-c6a3-47c3-980a-3c43bfa7f521",
+  "version": "2.0",
+  "name": "Emu-land test01",
+  "url": "https://www.emu-land.net",
+  "tests": [{
+    "id": "9da30a35-7fd3-41fb-8a01-62154935a105",
+    "name": "test01 login+",
+    "commands": [{
+      "id": "fe660033-d2d8-429d-8b47-37c3369eb2be",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "597fec01-7e7d-4025-a0e7-cf00a5869639",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1176",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1b8753e-39c3-424e-aff3-c4f00633914f",
+      "comment": "",
+      "command": "click",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=.form-group:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//div[@id='row_right']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "451a49bb-6a3c-4501-9a28-38061265c8cf",
+      "comment": "",
+      "command": "type",
+      "target": "name=user",
+      "targets": [
+        ["name=user", "name"],
+        ["css=.form-group:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='user']", "xpath:attributes"],
+        ["xpath=//div[@id='row_right']/div[2]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Flowich"
+    }, {
+      "id": "ca65c346-0122-4d1a-8890-c60bc4c90b31",
+      "comment": "",
+      "command": "click",
+      "target": "name=passwrd",
+      "targets": [
+        ["name=passwrd", "name"],
+        ["css=.form-group:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='passwrd']", "xpath:attributes"],
+        ["xpath=//div[@id='row_right']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbea34a9-9a4a-4694-b415-c1311a539eac",
+      "comment": "",
+      "command": "type",
+      "target": "name=passwrd",
+      "targets": [
+        ["name=passwrd", "name"],
+        ["css=.form-group:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='passwrd']", "xpath:attributes"],
+        ["xpath=//div[@id='row_right']/div[2]/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "peso326sa"
+    }, {
+      "id": "1b73e420-5327-4ff3-a5db-e0dad5afc007",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-btn > button",
+      "targets": [
+        ["css=.form-btn > button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='row_right']/div[2]/div/form/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "71f7813f-5a14-4731-8326-a22274c16840",
+    "name": "test02 search game",
+    "commands": [{
+      "id": "cf595b2e-cea1-4c47-b365-be257f94d533",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11bfd270-54f9-480f-9985-eca33d406450",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1160",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9f40243-f3db-4d93-a621-fd3a4e47ea27",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='row_right']/div[4]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cd565b1-0a53-494c-b1c2-9d6d88919236",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='row_right']/div[4]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Tekken 3"
+    }, {
+      "id": "87d37fb9-528d-4585-9bca-82ce680b6845",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group > button",
+      "targets": [
+        ["css=.form-group > button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='row_right']/div[4]/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Найти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95d26fa0-3311-4d8e-ac9b-6a99fa3ce9bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tekken 3 (Japan, TET1/VER.E1)",
+      "targets": [
+        ["linkText=Tekken 3 (Japan, TET1/VER.E1)", "linkText"],
+        ["css=.fcontainer:nth-child(4) > .fllinks a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tekken 3 (Japan, TET1/VER.E1)')]", "xpath:link"],
+        ["xpath=//div[@id='row_center']/div[4]/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/arcade/mame/roms/tekken3')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tekken 3 (Japan, TET1/VER.E1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f501e35a-e2c3-4b64-87f0-363bc54eff21",
+    "name": "Test03 download game",
+    "commands": [{
+      "id": "15847f2f-f24b-4dfb-a8bf-74600878bbe8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34be82ba-e88e-433d-a760-a1a99e6c0e23",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1160",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c401133d-1732-41fd-b554-bf9fba8fa677",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='row_right']/div[4]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8a5e4b5-60dc-4716-b955-f80aa3831097",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='row_right']/div[4]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "comix zone"
+    }, {
+      "id": "315b2e28-8e98-42ce-b575-ce2463783969",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group > button",
+      "targets": [
+        ["css=.form-group > button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='row_right']/div[4]/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Найти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d7c5389-640a-4d39-9620-46e50b71447e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Comix Zone",
+      "targets": [
+        ["linkText=Comix Zone", "linkText"],
+        ["css=.fcontainer:nth-child(3) > .fllinks a", "css:finder"],
+        ["xpath=//a[contains(text(),'Comix Zone')]", "xpath:link"],
+        ["xpath=//div[@id='row_center']/div[3]/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/consoles/genesis/roms/comix-zone')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Comix Zone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70410058-8540-43a6-a481-6d721d3eeb73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//span[@onclick=\"mgame('/consoles/genesis/roms?act=getmfl&id=23132', 'mfile_23132'); return false;\"]", "xpath:attributes"],
+        ["xpath=//div[@id='row_center']/div[2]/div[6]/ul/li[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Загрузить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78f7c67c-0df5-425f-b8c7-6add5e4f5a3d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Comix Zone (USA).zip",
+      "targets": [
+        ["linkText=Comix Zone (USA).zip", "linkText"],
+        ["css=.collaps-item:nth-child(1) .item:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Comix Zone (USA).zip')]", "xpath:link"],
+        ["xpath=//div[@id='mfile_23132']/div/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/consoles/genesis/roms?act=getmfl&id=23132&fid=4744')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Comix Zone (USA).zip')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "15055c63-4a6c-4df5-b989-e921642fcb24",
+    "name": "Test04 download BIOS ps2",
+    "commands": [{
+      "id": "65f1346d-a7c1-4316-aed0-bf8234307b2b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4659050-83aa-4f1f-abb2-685e18fa8ed3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1160",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a988074-9ab7-4db6-97a2-1f5287ac696e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu li:nth-child(1) > a",
+      "targets": [
+        ["css=.menu li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Консоли')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/consoles')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ac08d8-5e78-4efd-884f-edf9a26cc1a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sony PlayStation 2",
+      "targets": [
+        ["linkText=Sony PlayStation 2", "linkText"],
+        ["css=a:nth-child(51)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sony PlayStation 2')]", "xpath:link"],
+        ["xpath=//div[@id='row_center']/div[2]/a[26]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/consoles/ps2')]", "xpath:href"],
+        ["xpath=//a[26]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sony PlayStation 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87d7850a-cfc5-476c-a191-82527532b71b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=BIOS образы",
+      "targets": [
+        ["linkText=BIOS образы", "linkText"],
+        ["css=.subcat > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'BIOS образы')]", "xpath:link"],
+        ["xpath=//div[@id='row_center']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/consoles/ps2/bios')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'BIOS образы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d60cae-93c2-475d-b146-567b820a116a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#lactiv .hand:nth-child(1)",
+      "targets": [
+        ["css=#lactiv .hand:nth-child(1)", "css:finder"],
+        ["xpath=//span[@onclick=\"goto('/consoles/ps2/bios?act=getfile&id=5016')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='lactiv']/div/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sony PlayStation 2 BIOS (J)(v0.1)(2000-01-17)[SCPH10000]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d5ca2027-3782-42a3-9bc1-86fee4301076",
+    "name": "test05 search forum theme",
+    "commands": [{
+      "id": "c705ce6f-0b14-41d7-a482-004a9a921823",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7aac13da-4e0f-483b-be06-fc634425afcf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1160",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d9f9f65-45a3-469f-afd7-f1cf23b12502",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu > ul > li:nth-child(5) > a",
+      "targets": [
+        ["css=.menu > ul > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Форум')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/forum')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56107a02-5411-4d53-9df3-e1b1524e327a",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input_text", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6ca65ce-5c7a-4b4a-adc4-309afbc8eaa9",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input_text", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "battletoads наклейки"
+    }, {
+      "id": "e1bc3a62-689d-4a7b-aa5c-189a697f6900",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.input_text", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//form[@id='search_form']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "13f78d48-5880-4e09-b71d-641bdd33dfb7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Скан наклейки Battletoads из 90-х и вопросы по поведению стародельного картриджа",
+      "targets": [
+        ["linkText=Скан наклейки Battletoads из 90-х и вопросы по поведению стародельного картриджа", "linkText"],
+        ["css=.search_results_posts:nth-child(3) a:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='main_content_section']/form/div[3]/div/div/div/h5/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.emu-land.net/forum/index.php/topic,92646.msg1685659.html#msg1685659')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Скан наклейки Battletoads из 90-х и вопросы по поведению стародельного картриджа')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "260e98a1-d135-4468-bea0-93a40a273cf7",
+    "name": "test06 ",
+    "commands": [{
+      "id": "7414cd1d-278d-430b-a0ea-6ac54161444d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "804cf4a3-e2fb-49b3-aab3-f8321d2434ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1176",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e3c0cf0-1eba-4807-9d99-b3347229aa69",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ссылки",
+      "targets": [
+        ["linkText=Ссылки", "linkText"],
+        ["css=.mlnk:nth-child(39) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ссылки')])[2]", "xpath:link"],
+        ["xpath=//div[@id='side-menu']/div[2]/div/div[39]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/links')])[2]", "xpath:href"],
+        ["xpath=//div[39]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5222548-9102-4b39-bb10-8824dad6cad1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=shedevr.org.ru",
+      "targets": [
+        ["linkText=shedevr.org.ru", "linkText"],
+        ["css=p:nth-child(2) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'shedevr.org.ru')]", "xpath:link"],
+        ["xpath=//div[@id='row_center']/div[2]/div[2]/p[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.shedevr.org.ru/']", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'shedevr.org.ru')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7311",
+      "windowTimeout": 2000
+    }, {
+      "id": "0341b022-1d8e-4374-8491-110b4d5afc2a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7311}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2aabe2f3-e273-4847-8ffd-2c2b1ef3bd9b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Группа перевода \"Шедевр\"",
+      "targets": [
+        ["linkText=Группа перевода \"Шедевр\"", "linkText"],
+        ["css=p > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Группа перевода \"Шедевр\"')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'cgi-bin/news.cgi')])[2]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Группа перевода \"Шедевр\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "496f3fb8-22c1-4f08-8319-ffa25cba1727",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.emu-land.net/"],
+  "plugins": []
+}
